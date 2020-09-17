@@ -35,6 +35,6 @@ end
 def find_a(array)
   new_array = []
   array.select do |word|
-    word[0] = "a"
+    word[0] == "a"
  end
 end
