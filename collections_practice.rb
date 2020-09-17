@@ -33,7 +33,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = [] 
-  array.select do |a| 
+  new_array = []
+  array.select do |a|
     a[0] == "a"
 end 
