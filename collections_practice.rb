@@ -44,3 +44,12 @@ def sum_array(array)
     sum + x
  end
 end
+
+def add_s(array)
+  array.each_with_index.collect{|word, index| }
+  if index = 1 
+    word = word + "s"
+  else 
+    word = word 
+   end 
+ end
